@@ -1,0 +1,29 @@
+01 -	*** O git foi criado por Linus Torvalds, que também é criador do Linux. ***
+
+		Linus, ao desenvolver o Linux, necessitou de um sistema de versionamento que pudesse suportar pessoas de todo o mundo desenvolvendo juntas,
+		assim Linus tem a ideia de criar o Git.
+
+
+
+02 - 	Diferença entre GUI x CLI, GUI tem uma interface para o usuário Grafic User Interface. O CLI são comandos direto no terminal,
+		Command Line Interface.
+		
+		Comandos diferentes para Windows e Linux (derivações do unix funcionam como linux).
+			Windows: o TAB autocompleta os comandos			
+			   cd - Change directory, usar para trocar de pastar. (cd ..) -> volta, (cd / ) escolhe a pasta.					 
+			   dir - Directory, exibe as pastas do diretório					  
+			   mkdir - Make directory, usado para criar pastas.					 
+			   rmdir - Remove directory, usado para excluir pastas e seus conteúdos subsequentes.
+						/S - flag para excluir arvore de diretorios
+						/Q - flag para executar em modo silencioso, sem pedir confirmação, só funciona se /S for especificado
+						
+			   cls - Clear screen, limpa o terminal windows.			
+			   o TAB autocompleta os comandos				
+			   echo - Printa um comando no terminal, é possivel usar o '>' para redirecionar o fluxo para dentro de uma função
+			   del - Comando que deleta arquivos, não deleta pastas, mas sim o conteúdo dentro delas.
+	
+			Linux:
+			  cd
+			  Is
+			  mkdir
+			  rm -rf
