@@ -1,0 +1,15 @@
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\bin\Debug\net7.0\ExemploFundamentos.exe
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\bin\Debug\net7.0\ExemploFundamentos.deps.json
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\bin\Debug\net7.0\ExemploFundamentos.runtimeconfig.json
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\bin\Debug\net7.0\ExemploFundamentos.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\bin\Debug\net7.0\ExemploFundamentos.pdb
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.csproj.AssemblyReference.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.AssemblyInfoInputs.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.AssemblyInfo.cs
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.csproj.CoreCompileInputs.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\refint\ExemploFundamentos.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.pdb
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ExemploFundamentos.genruntimeconfig.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploFundamentos\obj\Debug\net7.0\ref\ExemploFundamentos.dll
