@@ -2,9 +2,12 @@
 using ExemploFundamentos.Models;
 
 
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy")); 
 
 
-Pessoa p = new Pessoa();
-p.nome = "Vitor";
-p.idade = 21;
-p.Apresentar();
+
+// Pessoa p = new Pessoa();
+// p.Nome = "Vitor";
+// p.Idade = 21;
+// p.Apresentar();
