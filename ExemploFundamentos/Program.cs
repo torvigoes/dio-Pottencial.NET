@@ -45,19 +45,30 @@ using ExemploFundamentos.Models;
 
 
 
-
 // SWITCH CASE
-Console.WriteLine("Digite uma letra: ");
-string letra = Console.ReadLine().ToUpper();
-switch (letra){
-    case "A":
-    case "E":
-    case "I":
-    case "O":
-    case "U":
-        Console.WriteLine("Vogal");
-        break;
-    default:
-    Console.WriteLine("Consoante");
-    break;
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine().ToUpper();
+// switch (letra){
+//     case "A":
+//     case "E":
+//     case "I":
+//     case "O":
+//     case "U":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//     Console.WriteLine("Consoante");
+//     break;
+// }
+
+
+
+// Operadores Lógicos
+bool maior = true;
+bool autorizacao = false;
+if(maior || autorizacao){
+    Console.WriteLine("Entrada liberada!");
+}
+else{
+    Console.WriteLine("Entrada proibida!");
 }
