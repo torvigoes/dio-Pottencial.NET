@@ -7,9 +7,11 @@ using ExemploFundamentos.Models;
 // p.Apresentar();
 
 
+
 // DATETIME
 // DateTime dataAtual = DateTime.Now;
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy")); 
+
 
 
 // CONVERTENDO VARIÁVEIS
@@ -17,6 +19,11 @@ using ExemploFundamentos.Models;
 // int a = int.Parse("5"); // Parse é um método usado somente para converter STRING em INTEIRO disparando exceptions, tem mais performance
 // Console.WriteLine(a);
 
-int inteiro = 5;
-string a = inteiro.ToString();
-Console.WriteLine(a);
+// int inteiro = 5;
+// string a = inteiro.ToString();
+// Console.WriteLine(a);
+
+int a = 5;
+double b = a;
+
+Console.WriteLine(b);
