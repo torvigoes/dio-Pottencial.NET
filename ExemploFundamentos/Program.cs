@@ -48,4 +48,16 @@ using ExemploFundamentos.Models;
 
 // SWITCH CASE
 Console.WriteLine("Digite uma letra: ");
-string letra = Console.ReadLine();
+string letra = Console.ReadLine().ToUpper();
+switch (letra){
+    case "A":
+    case "E":
+    case "I":
+    case "O":
+    case "U":
+        Console.WriteLine("Vogal");
+        break;
+    default:
+    Console.WriteLine("Consoante");
+    break;
+}
