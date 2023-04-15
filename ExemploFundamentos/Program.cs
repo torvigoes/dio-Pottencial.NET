@@ -23,7 +23,29 @@ using ExemploFundamentos.Models;
 // string a = inteiro.ToString();
 // Console.WriteLine(a);
 
-int a = 5;
-double b = a;
+// int a = 5;
+// double b = a;
+// Console.WriteLine(b);
 
-Console.WriteLine(b);
+
+
+// ESTRUTURAS CONDICIONAIS // && -> and / || -> or / ! -> not
+// int quantidade = 15;
+// int compra = 4;
+// bool possivelComprar = compra > 0 && quantidade >= compra;
+// if(compra == 0){
+//     Console.WriteLine("Venda inválida");
+// }
+// else if(possivelComprar){
+//     Console.WriteLine("Venda realizada!");
+// }
+// else{
+//     Console.WriteLine("Quantidade indisponível!");
+// }
+
+
+
+
+// SWITCH CASE
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
