@@ -27,5 +27,11 @@ namespace ExemploFundamentos.Models
             double divisao = (double)x/y;
             Console.WriteLine($"{x} / {y} = {divisao}");
         }
+
+        public void Potenciacao(int x, int y)
+        {
+            double potencia = Math.Pow(x,y);
+            Console.WriteLine($"{x} ** {y} = {potencia}");
+        }
     }
 }
