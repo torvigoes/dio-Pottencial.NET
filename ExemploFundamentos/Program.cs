@@ -84,4 +84,7 @@ calc.Subtrair(4,2);
 calc.Multiplicar(5,9);
 calc.Dividir(17,5);
 calc.Potenciacao(5,2);
+calc.Raiz(64);
 calc.Seno(90);
+calc.Cosseno(45);
+calc.Tangente(45);
