@@ -73,6 +73,10 @@ using ExemploFundamentos.Models;
 //     Console.WriteLine("Entrada proibida!");
 // }
 
+
+
+
+// CALCULADORA
 Calculadora calc = new Calculadora();
 
 calc.Somar(3,5);
@@ -80,3 +84,4 @@ calc.Subtrair(4,2);
 calc.Multiplicar(5,9);
 calc.Dividir(17,5);
 calc.Potenciacao(5,2);
+calc.Seno(90);

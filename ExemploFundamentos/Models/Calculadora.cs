@@ -31,7 +31,14 @@ namespace ExemploFundamentos.Models
         public void Potenciacao(int x, int y)
         {
             double potencia = Math.Pow(x,y);
-            Console.WriteLine($"{x} ** {y} = {potencia}");
+            Console.WriteLine($"{x}^ {y} = {potencia}");
+        }
+
+        public void Seno(double angulo)
+        {
+            double radianos = angulo * Math.PI / 180;
+            double seno = Math.Sin(radianos);
+            Console.WriteLine($"O Seno de {angulo}° é {seno}");
         }
     }
 }
