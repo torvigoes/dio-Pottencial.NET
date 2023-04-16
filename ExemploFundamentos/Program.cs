@@ -64,11 +64,18 @@ using ExemploFundamentos.Models;
 
 
 // Operadores Lógicos
-bool maior = true;
-bool autorizacao = false;
-if(maior || autorizacao){
-    Console.WriteLine("Entrada liberada!");
-}
-else{
-    Console.WriteLine("Entrada proibida!");
-}
+// bool maior = true;
+// bool autorizacao = false;
+// if(maior || autorizacao){
+//     Console.WriteLine("Entrada liberada!");
+// }
+// else{
+//     Console.WriteLine("Entrada proibida!");
+// }
+
+Calculadora calc = new Calculadora();
+
+calc.Somar(3,5);
+calc.Subtrair(4,2);
+calc.Multiplicar(5,9);
+calc.Dividir(17,5);
