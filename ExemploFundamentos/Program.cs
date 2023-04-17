@@ -110,13 +110,54 @@ using ExemploFundamentos.Models;
 
 
 // LAÇO DO... WHILE -> A diferença para o while é que esse executará o comando antes do laço começar, enquanto o while executa somente se a condição for verdadeira
-int num = 0, soma = 0;
-do
-{
-    Console.WriteLine($"Digite um número: (0 para parar)\n");
-    num = Convert.ToInt32(Console.ReadLine());
-    soma += num;
-}
-while(num != 0);
+// int num = 0, soma = 0;
+// do
+// {
+//     Console.WriteLine($"Digite um número: (0 para parar)\n");
+//     num = Convert.ToInt32(Console.ReadLine());
+//     soma += num;
+// }
+// while(num != 0);
 
-Console.WriteLine(soma);
+// Console.WriteLine(soma);
+
+
+
+// MENU
+string? op;
+
+while(true)
+{
+    Console.Clear();  // LIMPA O CONSOLE PARA O MENU NÃO FICAR REPETINDO
+    Console.WriteLine("\nDigite sua opção:\n " + 
+    "1 - CADASTRAR CLIENTE\n " + 
+    "2 - BUSCAR CLIENTE\n " + 
+    "3 - APAGAR CLIENTE\n " + 
+    "0 - ENCERRAR\n");
+
+    op = Console.ReadLine();
+
+    switch(op)
+    {
+        case "0":
+        Environment.Exit(0);
+        break;
+
+        case "1":
+        Console.WriteLine("Cadastrar cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Buscar cliente: ");
+        break;
+
+        case "3":
+        Console.WriteLine("Apagar cliente");
+        break;
+
+        default:
+        Console.WriteLine("Opção inválida");
+        break;
+    }
+
+}
