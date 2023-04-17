@@ -77,14 +77,22 @@ using ExemploFundamentos.Models;
 
 
 // CALCULADORA
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
+// calc.Somar(3,5);
+// calc.Subtrair(4,2);
+// calc.Multiplicar(5,9);
+// calc.Dividir(17,5);
+// calc.Potenciacao(5,2);
+// calc.Raiz(64);
+// calc.Seno(90);
+// calc.Cosseno(45);
+// calc.Tangente(45);
 
-calc.Somar(3,5);
-calc.Subtrair(4,2);
-calc.Multiplicar(5,9);
-calc.Dividir(17,5);
-calc.Potenciacao(5,2);
-calc.Raiz(64);
-calc.Seno(90);
-calc.Cosseno(45);
-calc.Tangente(45);
+
+
+// LAÇO FOR
+int num = 5;
+for(int count = 0; count <= 10; count++)
+{
+    Console.WriteLine($"{num} x {count} = {num*count}");
+}
