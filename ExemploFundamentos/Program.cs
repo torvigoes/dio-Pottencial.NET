@@ -125,8 +125,9 @@ using ExemploFundamentos.Models;
 
 // MENU
 string? op;
+bool exibirMenu = true;
 
-while(true)
+while(exibirMenu)
 {
     Console.Clear();  // LIMPA O CONSOLE PARA O MENU NÃO FICAR REPETINDO
     Console.WriteLine("\nDigite sua opção:\n " + 
@@ -140,7 +141,7 @@ while(true)
     switch(op)
     {
         case "0":
-        Environment.Exit(0);
+        exibirMenu = false;
         break;
 
         case "1":
