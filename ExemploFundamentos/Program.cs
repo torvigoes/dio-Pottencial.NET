@@ -91,8 +91,18 @@ using ExemploFundamentos.Models;
 
 
 // LAÇO FOR
-int num = 5;
-for(int count = 0; count <= 10; count++)
+// int num = 5;
+// for(int count = 0; count <= 10; count++)
+// {
+//     Console.WriteLine($"{num} x {count} = {num*count}");
+// }
+
+
+
+// LAÇO WHILE
+int n = 0;
+while(n <= 5)
 {
-    Console.WriteLine($"{num} x {count} = {num*count}");
+    Console.WriteLine(n);
+    n++;
 }
