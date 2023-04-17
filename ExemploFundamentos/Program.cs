@@ -110,10 +110,13 @@ using ExemploFundamentos.Models;
 
 
 // LAÇO DO... WHILE -> A diferença para o while é que esse executará o comando antes do laço começar, enquanto o while executa somente se a condição for verdadeira
-int n = 5;
+int num = 0, soma = 0;
 do
 {
-    Console.WriteLine(n);
-    n++;
+    Console.WriteLine($"Digite um número: (0 para parar)\n");
+    num = Convert.ToInt32(Console.ReadLine());
+    soma += num;
 }
-while(n <= 5);
+while(num != 0);
+
+Console.WriteLine(soma);
