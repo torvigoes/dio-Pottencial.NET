@@ -1,0 +1,3 @@
+* TIPOS DE PROJETO
+    .csproj -> Contém informações referentes a um projet (debug, build, versão)
+    .sln -> Contém informações que carregam um agrupamento de projetos 
