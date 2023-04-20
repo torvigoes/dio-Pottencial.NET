@@ -164,7 +164,29 @@ using ExemploFundamentos.Common.Models;
 
 // }
 
-Pessoa pessoa = new Pessoa();
-pessoa.Nome = "Vitor";
-pessoa.Idade = 20;
-pessoa.Apresentar();
+
+
+// ARRAYS
+// int[] nums = new int[]{32, 40, 31};
+// foreach(int n in nums)
+// {
+//     Console.WriteLine(n);
+// }
+
+// for(int contador = 0; contador < nums.Length; contador++)
+// {
+//     Console.Write(nums[contador] + " ");
+// }
+
+
+
+// LISTAS
+List<int> listaNum = new List<int>();
+listaNum.Add(2);
+listaNum.Add(1);
+listaNum.Add(3);
+
+for(int contador = 0; contador < listaNum.Count; contador++)
+{
+    Console.WriteLine($"{contador}° - {listaNum[contador]}");
+}
