@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace ExemploFundamentos.Common.Models
 {
+
+    /// <summary>
+    /// Representa uma pessoa física
+    /// </summary>
     public class Pessoa
     {
         public string? Nome { get; set; }
