@@ -180,7 +180,7 @@ using ExemploFundamentos.Common.Models;
 
 
 
-// LISTAS
+//LISTAS
 List<int> listaNum = new List<int>();
 listaNum.Add(2);
 listaNum.Add(1);
@@ -190,3 +190,4 @@ for(int contador = 0; contador < listaNum.Count; contador++)
 {
     Console.WriteLine($"{contador}° - {listaNum[contador]}");
 }
+
