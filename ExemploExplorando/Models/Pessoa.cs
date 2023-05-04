@@ -13,10 +13,7 @@ namespace ExemploExplorando.Models
         // Encapsulamento
         public string Nome 
         {
-            get
-            {
-                return _nome.ToUpper();
-            }
+            get => _nome.ToUpper(); // O sinal representa um body expression
 
             set
             {
