@@ -1,0 +1,15 @@
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.exe
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.deps.json
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.runtimeconfig.json
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.pdb
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfoInputs.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfo.cs
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
+E:\Coding\C#Projects\DIO\dio-Pottencial.NET\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
