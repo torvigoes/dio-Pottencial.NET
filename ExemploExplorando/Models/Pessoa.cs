@@ -9,12 +9,12 @@ namespace ExemploExplorando.Models
     {
         // Propriedades
         private string _nome;
+        private int _idade;
 
         // Encapsulamento
         public string Nome 
         {
             get => _nome.ToUpper(); // O sinal representa um body expression
-
             set
             {
                 if(value == "")
@@ -25,8 +25,18 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
         }
-
-        public int Idade {get; set;}
+        public int Idade 
+        {
+            get => _idade;
+            set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor que zero");
+                }
+                _idade = value;
+            }
+        }
 
         public void Apresentar()
         {
