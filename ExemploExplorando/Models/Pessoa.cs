@@ -12,7 +12,7 @@ namespace ExemploExplorando.Models
         private int _idade;
 
         // Encapsulamento
-        public string Nome 
+        public string Nome // Propriedade
         {
             get => _nome.ToUpper(); // O sinal representa um body expression
             set
@@ -25,7 +25,11 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
         }
-        public int Idade 
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}"; // Propriedade somente leitura, apenas o get
+
+
+        public int Idade // Propriedade
         {
             get => _idade;
             set
@@ -40,7 +44,7 @@ namespace ExemploExplorando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
