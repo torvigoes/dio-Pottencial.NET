@@ -10,11 +10,12 @@ namespace ExemploExplorando.Models
         // Construtor
         public Pessoa()
         {
-            
+
         }
         public Pessoa(string nome, string sobrenome)
         {
-
+            Nome = nome;
+            Sobrenome = sobrenome;  // Propriedades recebendo o valor das variáveis
         }
 
         // Propriedades

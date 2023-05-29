@@ -18,6 +18,7 @@ namespace ExemploExplorando.Models
 
         public void ListarAlunos()
         {
+            Console.WriteLine(Nome);
             foreach(Pessoa aluno in Alunos)
             {
                 Console.WriteLine(aluno.NomeCompleto);
