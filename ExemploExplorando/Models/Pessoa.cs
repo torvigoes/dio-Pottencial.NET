@@ -10,6 +10,8 @@ namespace ExemploExplorando.Models
         // Propriedades
         private string _nome;
         private int _idade;
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}"; // Propriedade somente leitura, apenas o get
 
         // Encapsulamento
         public string Nome // Propriedade
@@ -25,9 +27,6 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
         }
-        public string Sobrenome { get; set; }
-        public string NomeCompleto => $"{Nome} {Sobrenome}"; // Propriedade somente leitura, apenas o get
-
 
         public int Idade // Propriedade
         {
@@ -42,7 +41,8 @@ namespace ExemploExplorando.Models
             }
         }
 
-        public void Apresentar()
+        // Métodos
+        public void Apresentar() 
         {
             Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
