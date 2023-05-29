@@ -16,10 +16,19 @@ namespace ExemploExplorando.Models
             Alunos.Add(aluno);
         }
 
+        public void ListarAlunos()
+        {
+            foreach(Pessoa aluno in Alunos)
+            {
+                Console.WriteLine(aluno.NomeCompleto);
+            }
+        }
+
         public bool RemoverAluno(Pessoa aluno)
         {
             return Alunos.Remove(aluno);
         }
+
 
         public int ObterQuantiaAlunosMatriculados()
         {

@@ -11,7 +11,7 @@ namespace ExemploExplorando.Models
         private string _nome;
         private int _idade;
         public string Sobrenome { get; set; }
-        public string NomeCompleto => $"{Nome} {Sobrenome}"; // Propriedade somente leitura, apenas o get
+        public string NomeCompleto => $"{Nome} {Sobrenome.ToUpper()}"; // Propriedade somente leitura, apenas o get
 
         // Encapsulamento
         public string Nome // Propriedade
